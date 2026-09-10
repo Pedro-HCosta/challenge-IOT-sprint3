@@ -1,0 +1,19 @@
+{
+  "pet_id": "PET-001",
+  "data_referencia": "2026-09-11",
+  "prioridade": "alta",
+  "codigo_regra": "COMPORTAMENTO_PERSISTENTE_001",
+  "regras_acionadas": [
+    "COMPORTAMENTO_PERSISTENTE_001",
+    "VACINA_PROXIMA_001",
+    "TEMPERATURA_ELEVADA_001"
+  ],
+  "evidencias": [
+    "baixa atividade registrada por 3 dias",
+    "vacina polivalente prevista para daqui a 3 dias",
+    "temperatura ambiental de 31.2 °C"
+  ],
+  "acao_sugerida": "entrar em contato com a clínica",
+  "mensagem_simulada": "Luna: identificamos os seguintes pontos de atenção: baixa atividade registrada por 3 dias; vacina polivalente prevista para daqui a 3 dias; temperatura ambiental de 31.2 °C. A prioridade é alta. Recomendamos entrar em contato com a clínica. Esta orientação é informativa e não representa um diagnóstico.",
+  "aviso": "A recomendação oferece apoio informativo e não substitui avaliação veterinária."
+}

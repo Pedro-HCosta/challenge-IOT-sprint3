@@ -1,0 +1,34 @@
+{
+  "pet_id": "PET-001",
+  "nome": "Luna",
+  "especie": "canina",
+  "idade_anos": 6,
+  "condicoes": [
+    "sobrepeso em acompanhamento"
+  ],
+  "vacinas": [
+    {
+      "tipo": "polivalente",
+      "ultima_aplicacao": "2025-09-14",
+      "proxima_dose": "2026-09-14"
+    }
+  ],
+  "ultima_consulta": {
+    "data": "2025-10-10",
+    "motivo": "consulta preventiva"
+  },
+  "medicamentos": [],
+  "comportamento": {
+    "classe": "baixa_atividade",
+    "dias_persistentes": 3,
+    "origem": "visao_computacional_sprint2",
+    "timestamp": "2026-09-09T12:00:00-03:00"
+  },
+  "ambiente": {
+    "temperatura_c": 31.2,
+    "umidade_percentual": 64,
+    "luminosidade": 1800,
+    "origem": "esp32_mqtt_sprint2",
+    "timestamp": "2026-09-09T12:00:00-03:00"
+  }
+}
